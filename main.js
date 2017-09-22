@@ -905,7 +905,7 @@ function onKeyDown(event) {
 function controls() {
     controls1 = new PointText({
         point: [0.1 * view.center.x, 0.1 * view.center.y],
-        content: '´v´ - one step, ´b´ - 50 steps, ´n´ - 100 steps (forced tiles only) ',
+        content: '´q´ - one step, ´w´ - 50 steps, ´e´ - 100 steps (forced tiles only) ',
         fillColor: 'black',
         fontFamily: 'Courier New',
         fontWeight: 'bold',
