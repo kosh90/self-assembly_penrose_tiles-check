@@ -324,23 +324,23 @@ function onKeyDown(event) {
             add_random_tile(b_tiles);
         }
     }
-    if (event.key == 'n') {
-        i = 0;
-        while (i < 200) {
-            i++;
-            add_random_tile_2(b_tiles);
-        }
-    }
-    if (event.key == 'b') {
-        i = 0;
-        while (i < 50) {
-            i++;
-            add_random_tile_2(b_tiles);
-        }
-    }
-    if (event.key == 'v') {
-        add_random_tile_2(b_tiles);
-    }
+//     if (event.key == 'n') {
+//         i = 0;
+//         while (i < 200) {
+//             i++;
+//             add_random_tile_2(b_tiles);
+//         }
+//     }
+   // if (event.key == 'b') {
+//         i = 0;
+//         while (i < 50) {
+//             i++;
+//             add_random_tile_2(b_tiles);
+//         }
+//     }
+   // if (event.key == 'v') {
+   //     add_random_tile_2(b_tiles);
+   // }
     if (event.key == 'q') {
         add_random_tile_3(b_tiles);
     }
